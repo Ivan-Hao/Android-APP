@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SpeechToText</string>
+
+    <string name="mainTitleText">歡迎使用稻米語音系統</string>
+    <string name="mainHintAccount">帳號</string>
+    <string name="mainHintPassword">密碼</string>
+    <string name="mainLoginButton">登入</string>
+    <string name="mainClearButton">清除</string>
+    <string name="mainRegisterText"><u>註冊帳號</u></string>
+
+
+    <string name="titleRegisterActivity">Register</string>
+    <string name="registerHintUserName">姓名</string>
+    <string name="registerHintUserPhone">電話</string>
+    <string name="registerHintUserEmail">電子郵件</string>
+    <string name="registerHintUserPassword">密碼(由6~10位英文數字組合)</string>
+    <string name="registerHintUserPasswordCheck">密碼確認</string>
+    <string name="msg_PASSWORD">請重新確認密碼</string>
+    <string name="msg_ServerError">伺服器發生錯誤</string>
+    <string name="registerSubmitButton">註冊</string>
+    <string name="registerBackButton">返回</string>
+
+    <string name="titleMethodActivity">Method</string>
+    <string name="methodTitleText">選擇輸入方式</string>
+    <string name="methodHandSpeechButton">半語音輸入</string>
+    <string name="methodHandButton">手動輸入</string>
+    <string name="methodSpeechButton">全語音輸入</string>
+    <string name="methodKeyWordButton">新增關鍵字</string>
+
+
+    <string name="titleHandSpeechActivity">HandSpeech</string>
+    <string name="handSpeechTitleText">語音輸入頁面</string>
+    <string name="handSpeechProductText">請選擇產品</string>
+    <string name="handSpeechTaskText">請選擇工作項目</string>
+    <string name="handSpeechLocationText">請選擇產品產地</string>
+    <string name="handSpeechToolText">請選擇使用工具</string>
+    <string name="handSpeechToolTypeText">使用工具種類</string>
+    <string name="handSpeechMethodText">使用輸入方法</string>
+    <string name="handSpeechInputMethodText">半手動</string>
+    <string name="handSpeechSubmitButton">送出</string>
+    <string name="handSpeechBackButton">返回</string>
+
+    <string name="titleHandActivity">Hand</string>
+    <string name="handTitleText">手動輸入頁面</string>
+    <string name="handProductText">請選擇產品</string>
+    <string name="handTaskText">請選擇工作項目</string>
+    <string name="handLocationText">請選擇產品產地</string>
+    <string name="handToolText">請選擇使用工具</string>
+    <string name="handToolTypeText">使用工具種類</string>
+    <string name="handMethodText">使用輸入方法</string>
+    <string name="handInputMethodText">手動</string>
+    <string name="handSubmitButton">送出</string>
+    <string name="handBackButton">返回</string>
+
+    <string name="titleSpeechActivity">Speech</string>
+    <string name="speechPitchText">音調</string>
+    <string name="speechSpeedText">速度</string>
+    <string name="speechOnButton">On</string>
+    <string name="speechOffButton">Off</string>
+    <string name="speechBackButton">返回</string>
+
+    <string name="titleKeyActivity">Key</string>
+    <string name="keyTitleText">更正語音辨認錯誤</string>
+    <string name="keyErrorText">錯誤字詞</string>
+    <string name="keyCorrectText">正確字詞</string>
+    <string name="keyArrayText">----></string>
+    <string name="keyHintError">錯誤語音辨識字句</string>
+    <string name="keyHintCorrect">修正語音辨識字句</string>
+    <string name="keySubmitButton">送出</string>
+    <string name="keyBackButton">返回</string>
+
+    <string name="titleResultsActivity">Results</string>
+    <string name="resultsTitleText">以下為本次輸入</string>
+    <string name="resultsConfirmButton">確認後繼續下筆輸入</string>
+    <string name="resultsLeaveButton">確認後離開</string>
+    <string name="resultsBackButton">資料有誤返回上頁</string>
+    <string name="resultsProductText">產品名稱 :  </string>
+    <string name="resultsUNIXText">UNIX時間 :  </string>
+    <string name="resultsTaskText">工作項目 :  </string>
+    <string name="resultsLocationText">生產地點 :  </string>
+    <string name="resultsToolText">使用工具 :  </string>
+    <string name="resultsTypeText">工具種類 :  </string>
+    <string name="resultsMethodText">使用方法 :  </string>
+
+</resources>

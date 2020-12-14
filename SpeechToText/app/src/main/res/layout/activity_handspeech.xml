@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HandSpeechActivity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/handSpeechTitleText"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechProductText" />
+
+        <LinearLayout
+            style="@style/style04">
+            <TextView style="@style/style02"
+                android:id="@+id/handSpeechProductText"/>
+            <Button style="@style/style03"
+                android:id="@+id/handSpeechProductButton"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechTaskText" />
+        <LinearLayout
+            style="@style/style04">
+            <TextView style="@style/style02"
+                android:id="@+id/handSpeechTaskText"/>
+            <Button style="@style/style03"
+                android:id="@+id/handSpeechTaskButton"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechLocationText" />
+        <LinearLayout
+            style="@style/style04">
+            <TextView style="@style/style02"
+                android:id="@+id/handSpeechLocationText"/>
+            <Button style="@style/style03"
+                android:id="@+id/handSpeechLocationButton"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechToolText" />
+        <LinearLayout
+            style="@style/style04">
+            <TextView style="@style/style02"
+                android:id="@+id/handSpeechToolText"/>
+            <Button style="@style/style03"
+                android:id="@+id/handSpeechToolButton" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechToolTypeText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/handSpeechToolTypeText"/>
+        <TextView
+            style="@style/style01"
+            android:text="@string/handSpeechMethodText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/handSpeechInputMethodText"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/handSpeechSubmitButton"
+                android:onClick="handSpeechSubmitButton"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/handSpeechBackButton"
+                android:onClick="handSpeechBackButton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

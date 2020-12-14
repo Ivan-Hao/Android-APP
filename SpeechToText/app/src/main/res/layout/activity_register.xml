@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/registerUserNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registerHintUserName"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/registerUserPhoneEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registerHintUserPhone"
+        android:inputType="phone"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/registerUserEmailEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registerHintUserEmail"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/registerUserPasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registerHintUserPassword"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/registerUserPasswordCheckEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registerHintUserPasswordCheck"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/registerSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerSubmitButtonClick"
+        android:text="@string/registerSubmitButton" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerBackClick"
+        android:text="@string/registerBackButton"/>
+</LinearLayout>

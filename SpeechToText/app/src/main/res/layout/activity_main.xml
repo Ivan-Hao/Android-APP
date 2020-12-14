@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainTitleText"
+        android:text="@string/mainTitleText"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainAccountEdit"
+        android:layout_below="@id/mainTitleText"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:hint="@string/mainHintAccount"
+        android:textSize="30sp"
+        android:ems="10"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainPasswordEdit"
+        android:layout_below="@id/mainAccountEdit"
+        android:inputType="textPassword"
+        android:hint="@string/mainHintPassword"
+        android:textSize="30sp"
+        android:ems="10"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainLoginButton"
+        android:layout_below="@id/mainPasswordEdit"
+        android:text="@string/mainLoginButton"
+        android:onClick="mainLoginButtonClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainClearButton"
+        android:text="@string/mainClearButton"
+        android:onClick="mainClearButtonClick"
+        android:layout_alignBaseline="@id/mainLoginButton"
+        android:layout_toEndOf="@id/mainLoginButton"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainRegisterText"
+        android:layout_below="@id/mainLoginButton"
+        android:text="@string/mainRegisterText"
+        android:textColor="#CC0000"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:onClick="mainRegisterTextClink" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainErrorText"
+        android:textSize="15sp"
+        android:layout_below="@id/mainRegisterText"
+        android:textColor="#CC0000"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
